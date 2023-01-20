@@ -3,12 +3,9 @@ import { Link } from './link/link.model';
 import { DialogOverviewExample } from './dialog-overview/dialog-overview.component';
 
 
-
-
-
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './app.component.html', 
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {

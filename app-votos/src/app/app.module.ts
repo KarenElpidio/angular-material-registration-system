@@ -7,6 +7,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { DialogOverviewExample } from './dialog-overview/dialog-overview.component';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { NotasComponent } from './notas/notas.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -15,7 +17,9 @@ import { MatInputModule } from '@angular/material/input';
   declarations: [
     AppComponent,
     LinkComponent,
-    DialogOverviewExample
+    DialogOverviewExample,
+    NotasComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
