@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { Link } from './link/link.model';
+import { DialogOverviewExample } from './dialog-overview/dialog-overview.component';
+
+
 
 
 
@@ -9,6 +12,7 @@ import { Link } from './link/link.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  [x: string]: any;
 
   links: Link[];
 
